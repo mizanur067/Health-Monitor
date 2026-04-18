@@ -4,7 +4,7 @@ import { HomePage } from './HomePage'
 const AllPages = () => {
     return (
         <div>
-            <Router>
+            <Router basename='Health-Monitor'>
                 <Routes>
                     <Route path='/' element={<HomePage />} />
                 </Routes>
